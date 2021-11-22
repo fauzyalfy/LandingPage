@@ -1,0 +1,413 @@
+/* Tablet */
+
+@media all and (max-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .text h2 {
+        font-size: 90px;
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+    .text p {
+        font-size: 14px;
+        margin-left: 35px;
+    }
+    .imgBox img {
+        max-width: 250px;
+        margin-right: 50px;
+    }
+    .btn-detail {
+        width: 120px;
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    .btn-checkout {
+        width: 120px;
+        font-size: 15px;
+    }
+    .imgBox2 {
+        bottom: -30%;
+    }
+    .navbar-list ul {
+        margin-right: 15px;
+    }
+    .navbar-list li a {
+        font-size: 16px;
+        display: inline-block;
+        color: #AAAAAA;
+        font-weight: 400;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    .navbar-list .btn-login {
+        color: #eff1f3;
+        width: 5rem;
+        line-height: 2.5em;
+        text-align: center;
+        border-radius: 35px;
+        background: linear-gradient(to right, #1e9cd7, #0075be);
+    }
+    
+    .navbar li a:hover {
+        color: black;
+        font-weight: 600;
+    }
+    
+    .navbar .btn-login:hover {
+        color: #1794D2;
+        border: 2px solid #1794D2;
+        background: rgb(247, 246, 246);
+        box-shadow: 0 1px 6px 1px rgb(201, 201, 201);
+    }
+
+    /* ----about---- */
+    .about-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    .btn {
+        margin-left: 0px;
+    }
+  
+    .rigth h2{
+          text-transform: capitalize;
+          text-align: center;
+          margin-bottom: 1em;
+      }
+
+    .footer-part {
+        flex-direction: column;
+      }
+   
+    .company-info {
+        width: 100%;
+        text-align: center;
+      }
+   
+    .company-info img {
+        max-height: 100px;
+        width: auto;
+      }
+   
+    .socmed-wrapper {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+      }
+   
+    .socmed-wrapper h3{
+        margin: 10px 0px;
+      }
+   
+    .social-media {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+      }
+
+    .product-header{
+        margin-top: 50px;
+        margin-left: -35px;
+    }
+      
+      .product-header p {
+        margin-left: 30px;
+        padding: 7px 25px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      .product-header p:hover {
+        margin-left: 30px;
+        padding: 7px 25px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-image: linear-gradient(to right, #1e9cd7, #0075be);
+        color: white;
+      }
+      
+      .product-header .btn-category {
+        background-image: linear-gradient(to right, #1e9cd7, #0075be);
+        color: white;
+      }
+      
+      .card-product{
+        margin-left: 10px;
+      }
+      .card-product:hover{
+        height: 350px;
+        border: 1px solid grey;
+        box-shadow: -4px 21px 61px -32px rgba(7,101,174,0.75);
+        max-width: 350px;
+        width: 300px;
+        margin-left: 20px;
+        border-radius: 40px;
+        margin-top: -30px;
+        transition: 0.3s;
+      }
+      
+      .card-product .product-name {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .card-product .price {
+        font-size: 20px;
+        text-align: center;
+      }
+      
+      .card-product img  {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+      }
+      
+      .row-stars {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .row-stars span {
+        margin-left: 5px;
+      }
+      
+      .card-product span {
+        color: yellow;
+      }
+      
+      .card-product button {
+        background-image: linear-gradient(to right, #1e9cd7, #0075be);
+        padding: 7px 15px;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .btn-show-more{
+        background-image: linear-gradient(to right, #1e9cd7, #0075be);
+        padding: 10px 75px;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        margin-bottom: 50px;
+      }
+      
+      .btn-show-more:hover{
+        background-image: linear-gradient(to left, #1e9cd7, #0075be);
+        padding: 10px 75px;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        margin-bottom: 50px;
+        box-shadow: -4px 21px 61px -32px rgba(7,101,174,0.75);
+        
+      }
+}
+
+
+/* Smartphone */
+
+@media all and (max-width: 670px) {
+    .top-wrapper .container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .text h2 {
+        font-size: 90px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .btn-detail {
+        margin-top: 20px;
+    }
+    .btn-checkout {
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    .text p {
+        margin: auto;
+        text-align: start;
+    }
+    .imgBox {
+        margin: auto;
+        margin-left: 40px;
+    }
+    .imgBox2 {
+        margin-bottom: 190px;
+    }
+
+    .toggler-navbar {
+      display: flex;
+    }
+
+    .menu-bar {
+      display: none;
+    }
+
+    .hamburger-menu {
+      margin-left: -50px;
+      margin-top: -20px;
+    }
+
+    .social-media {
+        width: 100%;
+        flex-direction: column;
+      }
+      .body-product{
+        margin: auto;
+      }
+      
+      .product-header{
+        margin: auto;
+      }
+      
+      .product-header h3 {
+        margin-left: 65px;
+        margin-top: 80px;
+      }
+      
+      .product-category {
+        display: flex;
+        float: right;
+        margin-left: auto;
+        padding: 10px;
+      
+      }
+      
+      .product-category span{
+        display: none;
+      }
+      
+      .product-header p {
+        margin-left: 30px;
+        padding: 7px 25px;
+        border-radius: 20px;
+        cursor: pointer;
+        display: none;
+      }
+      
+      
+      .product-header .btn-category {
+        background-image: linear-gradient(to right, #1e9cd7, #0075be);
+        color: white;
+      }
+      
+      .section-product{
+        flex-direction: column;
+        margin-left: 40px;
+      }
+      
+      .card-product{
+        width: 250px;
+        border-radius: 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        
+      }
+      .card-product:hover{
+        width: 250px;
+        margin-top: 0px;
+        border-radius: 20px;
+      }
+  
+      .card-product .product-name {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .card-product .price {
+        font-size: 20px;
+        text-align: center;
+      }
+      
+      .card-product img  {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+      }
+      
+      .row-stars {
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .row-stars span {
+        margin-left: 5px;
+      }
+      
+      .card-product span {
+        color: yellow;
+      }
+      
+      .card-product button {
+        background-image: linear-gradient(to right, #1e9cd7, #0075be);
+        padding: 7px 15px;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .btn-show-more{
+        margin-top: -40px;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+
+      .about{
+        padding: 0 30px;
+      }
+
+    .left img{
+        width: 120%;
+        margin-left: -20px;
+        margin-top: -80px;
+    }
+
+    .rigth h2{
+        margin-bottom: 10px;
+        margin-top: -30px;
+        font-size: 35px;
+    }
+    
+    .rigth P{
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    .rigth .btn{
+      display: block;
+      text-align: center;
+    }
+
+    .left img:hover{
+          transform: scale(1);
+    }
+
+}
